@@ -5,3 +5,5 @@ def greet(name: str) -> str:
 
 if __name__ == "__main__":
     print(greet("Студент"))
+def farewell(name: str) -> str:
+    return f"До побачення, {name}!"
